@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+bin/
+lib/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Output files from mesher
+output.off
+mesh_output.png
+test_image.png
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Executables
+mesher
+run_tests

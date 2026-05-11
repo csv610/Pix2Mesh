@@ -15,8 +15,8 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 set(LIB_SOURCES BinaryImageMesher.cpp)
 
 # Main Executable
-add_executable(mesher main.cpp ${LIB_SOURCES})
-target_link_libraries(mesher ${OpenCV_LIBS})
+add_executable(pixmesh main.cpp ${LIB_SOURCES})
+target_link_libraries(pixmesh ${OpenCV_LIBS})
 
 # Tests Executable
 add_executable(run_tests tests.cpp ${LIB_SOURCES})

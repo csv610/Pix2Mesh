@@ -94,7 +94,7 @@ make
 ## Usage
 
 ```bash
-./mesher <image_path> [options]
+./pixmesh <image_path> [options]
 ```
 
 ### Options
@@ -111,7 +111,7 @@ make
 ### Example
 
 ```bash
-./mesher input.png -t 128 -si 20 -sb 10 -o my_mesh.off
+./pixmesh input.png -t 128 -si 20 -sb 10 -o my_mesh.off
 ```
 
 ## Testing

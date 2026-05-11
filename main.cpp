@@ -14,7 +14,7 @@ void print_help(const char* progName) {
     std::cout << "  -si, --smooth-int N   Number of interior smoothing iterations (default: 10)" << std::endl;
     std::cout << "  -sb, --smooth-bnd N   Number of boundary smoothing iterations (default: 5)" << std::endl;
     std::cout << "  -o, --output FILE     Output OFF filename (default: output.off)" << std::endl;
-    std::cout << "\nExample:" << std::endl;
+    std::cout << "Example:" << std::endl;
     std::cout << "  " << progName << " input.png -t 150 -si 20 -sb 10 -o my_mesh.off" << std::endl;
 }
 
